@@ -3,7 +3,7 @@ package newjavafeats;
 public class RecordTest {
     record Person(String name, String email) {
         static String test = "Hallo";
-        Person(String name, String email) {
+        Person(String name, String email) { // optional
             this.name = email;
             this.email = name;
         }
